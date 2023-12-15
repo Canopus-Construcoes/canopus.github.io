@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Rodar Processo de Pagamento e Devolução de Valores</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Rodar Processo de Pagamento e Devolu&#231;&#227;o de Valores</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessProcess"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessProcess" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Identifica&#231;&#227;o de Valores a Serem Devolvidos: O primeiro passo &#233; identificar os casos em que os valores precisam ser devolvidos aos clientes. Isso pode ocorrer em situa&#231;&#245;es como cancelamento de contratos, pagamento em excesso, ou erros de cobran&#231;a.
+
+Valida&#231;&#227;o dos Montantes a Devolver: Verificar e validar o montante exato a ser devolvido. Isso envolve a an&#225;lise de registros financeiros, contratos, e hist&#243;ricos de pagamento para assegurar a precis&#227;o do valor.
+
+Processos de Aprova&#231;&#227;o Interna: Estabelecer e seguir um processo interno de aprova&#231;&#227;o para a devolu&#231;&#227;o de valores. Isso geralmente inclui a revis&#227;o e a autoriza&#231;&#227;o por parte de supervisores ou gerentes, assegurando a conformidade com as pol&#237;ticas da empresa.
+
+Comunica&#231;&#227;o com o Cliente: Informar o cliente sobre a devolu&#231;&#227;o, incluindo o montante e o cronograma. Manter uma comunica&#231;&#227;o clara e transparente &#233; fundamental para manter a confian&#231;a e a satisfa&#231;&#227;o do cliente.
+
+M&#233;todos de Devolu&#231;&#227;o: Escolher o m&#233;todo mais apropriado para a devolu&#231;&#227;o do valor, que pode incluir transfer&#234;ncia banc&#225;ria, cheque, ou cr&#233;dito em futuras transa&#231;&#245;es. O m&#233;todo escolhido deve ser conveniente para o cliente e eficiente para a empresa.
+
+Execu&#231;&#227;o da Devolu&#231;&#227;o: Realizar a devolu&#231;&#227;o de valores de forma eficiente e dentro do prazo acordado. Garantir que o processo seja rastre&#225;vel e verific&#225;vel para fins de auditoria e conformidade.
+
+Documenta&#231;&#227;o e Registro: Documentar cada etapa do processo de devolu&#231;&#227;o, mantendo registros que detalhem o valor devolvido, a data, o m&#233;todo de pagamento, e a comunica&#231;&#227;o com o cliente.
+
+Revis&#227;o e Reconcilia&#231;&#227;o Financeira: Ap&#243;s a conclus&#227;o da devolu&#231;&#227;o, realizar uma revis&#227;o e reconcilia&#231;&#227;o para garantir que os livros cont&#225;beis reflitam corretamente a transa&#231;&#227;o. Isso &#233; essencial para manter a integridade financeira da empresa.
+
+Feedback e Melhoria Cont&#237;nua: Coletar feedback do cliente sobre o processo de devolu&#231;&#227;o e usar essas informa&#231;&#245;es para melhorar continuamente os processos e a experi&#234;ncia do cliente.
+
+Gest&#227;o de Implica&#231;&#245;es Fiscais e Legais: Considerar e gerenciar quaisquer implica&#231;&#245;es fiscais ou legais associadas &#224; devolu&#231;&#227;o de valores, garantindo a conformidade com as regulamenta&#231;&#245;es aplic&#225;veis.</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>Dom&#237;nio</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Contas a Receber</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-id-b4866acb41724eac8ad63ec738fdcd3b">
+																	<td><a href="../views/id-b4866acb41724eac8ad63ec738fdcd3b.html" target="view" title="suporte.financas.contasareceber"> suporte.financas.contasareceber </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
